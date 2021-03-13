@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@replit/database": "^2.0.0",
     "next": "^9.2.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
