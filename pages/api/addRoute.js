@@ -5,8 +5,6 @@ export default (req, res) => {
   let route = req.body.route
   let title = req.body.title
 
-  db.get(route).then(value=>{console.log(value)})
-
   db.set(route, title).then(value => {
     res.statusCode = 200
     res.json({ success: true })
